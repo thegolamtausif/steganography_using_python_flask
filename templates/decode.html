@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body{
+          background-color: black ;
+      }
+      h1{
+          display: flex;
+          color: rgb(110, 211, 255) ;
+          justify-content: center ;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: xxx-large;
+          
+      }
+      h2{
+          color: white;
+      }
+      .box{
+          border: 2px solid rgb(226, 21, 21) ;
+          color: rgb(0, 255, 89) ;
+          font-size: 200%;
+          margin: 200px;
+          padding: 10px; 
+      }
+      nav{
+  background-color: rgb(71, 212, 165);
+  padding: 10px;
+}
+.box{
+  margin: 3px;
+  padding: 3px;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 180%;
+  background-color: rgb(234, 243, 199);
+  color: rgb(198, 33, 33);
+  border-radius: 15px ;
+}
+a{
+  color:  rgb(198, 33, 33);
+  text-decoration: none;
+}
+.im{
+    font-size: x-large;
+    border-radius: 30px;
+    background-color: rgb(88, 166, 166);
+    width: 80vw ;
+    display: flex;
+    margin: auto;
+    color: rgb(166, 0, 0);
+   }
+   .sm{
+    font-size: x-large;
+    border-radius: 30px;
+    background-color: rgb(200, 221, 221);
+    width: 40vw ; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: rgb(0, 15, 100);
+   }
+  </style>
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+        
+      <span class="box">
+          <a href="index.html">Home</a>
+          </span>
+          <span class="box">
+            <a href="about.html">About</a> 
+        </span>
+        <span class="box"> <a href="contact.html">contact</a></span>
+  </nav>
+    <h1>
+      To encode data, please upload the image file 
+    </h1>
+
+    <form action="/deesuc.html" method="POST" enctype="multipart/form-data">
+        <input class="im" type="file" name="image">
+        <input class="sm" type="submit" value="Upload">
+    </form>
+    
+  </body>
+</html>
+
+
+
+

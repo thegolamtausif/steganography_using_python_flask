@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(62, 152, 148);
+    background-image: url(/static/abc.jpg);
+    background-blend-mode: luminosity;
+    
+}
+*{
+    margin: 5px;
+    padding: 0;
+}
+nav{
+    background-color: rgb(71, 212, 165);
+    padding: 10px;
+    border: 2px solid rgb(240, 228, 228);
+    border-radius: 15px;
+}
+.box{
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid rgba(32, 142, 221, 0.994);
+    font-size: 180%;
+    background-color: rgb(234, 243, 199);
+    color: rgb(198, 33, 33);
+    border-radius: 15px;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+h2{
+    color: white;
+}
+ul{
+    margin: 40px ;
+
+}
+ul li{
+    margin: auto;
+    padding: 5px;
+    border: 3px solid #ea3131;
+    font-size: 200%;
+    list-style: upper-latin;
+    color: rgb(203, 255, 31);
+    display: flex ;
+    justify-content: space-around;
+    width: 500px ;
+    height: 50px;
+    font-style: oblique;
+    box-shadow: 8px 6px rgb(203, 255, 31);
+    background-color: rgba(17, 9, 108, 0.968);
+    border-radius: 20px ;
+}
+a{
+    color: rgb(203, 255, 31);
+    text-decoration: none;
+}
+span a{
+    color: rgb(198, 33, 33);
+}
+footer{
+    color: #fa0808;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.img1 {
+    margin: 0px;
+    padding:0px ;
+    display: inline-block ;
+     /* filter: invert(1); For Firefox */
+}
+
+@media only screen and (max-width:500px ){
+    ul li{
+        font-size: 100%;
+        width: 300px ;
+        height: 30px;
+        align-items: center;
+       }
+    .img1 {
+        margin: -1px;
+        padding:0px ;
+        display: inline-block ;
+         /* filter: invert(1); For Firefox */
+    }
+    .box{
+        margin: 3px;
+        padding: 3px;
+        font-size: 160%;
+        background-color: rgb(234, 243, 199);
+        color: rgb(198, 33, 33);
+        border-radius: 15px;
+    }
+   }
